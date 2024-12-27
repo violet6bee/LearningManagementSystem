@@ -1,5 +1,7 @@
 syntax = "proto3";
 package reviews;
+option java_outer_classname = "Reviews";
+option java_package = "Reviews";
 
 message CreateReviewRequest {
   string newReview = 1;
